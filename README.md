@@ -34,9 +34,10 @@ opm install coverage
 
 - Файл `coverage.os`
 
-```
-#Использовать coverage
+```bsl
 #Использовать 1commands
+#Использовать coverage
+#Использовать fs
 
 ФС.ОбеспечитьПустойКаталог("coverage");
 ПутьКСтат = "coverage/stat.json";
@@ -72,9 +73,10 @@ opm install coverage
 * Установить путь к файлу покрытия (настройка `coverage-gutters.xmlname`): `coverage/coverage.xml`
 * Установить библиотеке `coverage` по инструкции
 * Создать файла `coverage.os` с содержанием 
-```
-#Использовать coverage
+```bsl
 #Использовать 1commands
+#Использовать coverage
+#Использовать fs
 
 ФС.ОбеспечитьПустойКаталог("coverage");
 ПутьКСтат = "coverage/stat.json";
